@@ -1,0 +1,18 @@
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+.item {
+  height: 250px;
+  object-fit: cover;
+  width: calc((100% - 48px) / 3);
+}
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
